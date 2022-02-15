@@ -13,3 +13,13 @@ variable "instance_name" {
   type = string
 }
 
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "Secret Access key for user"
+  type = string
+}
+
+variable "AWS_ACCESS_KEY" {
+  description = "Client ID"
+  type = string
+}
+
