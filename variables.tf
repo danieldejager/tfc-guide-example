@@ -4,7 +4,7 @@ variable "region" {
 }
 
 variable "instance_type" {
-  description = "Type of EC2 instance to provision"
+  description = "Type of Amazon EC2 instance to provision"
   type = string
 }
 
